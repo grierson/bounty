@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18c171bf-2155-471c-b296-b569db5c67b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__cider_cider_nrepl_0_21_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/ClojureProjectResolveSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__args4j_2_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__cider_cider_nrepl_0_21_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__clj_http_3_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__clojure_complete_0_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_externs_v20160911.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__com_google_javascript_closure_compiler_unshaded_v20160911.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__com_google_jsinterop_jsinterop_annotations_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__commons_codec_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__hickory_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__nrepl_0_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_apache_httpcomponents_httpasyncclient_4_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_cache_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_nio_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_apache_httpcomponents_httpmime_4_5_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_clojure_1_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_clojurescript_1_9_293.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_core_specs_alpha_0_2_44.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_google_closure_library_0_0_20160609_f42b4a24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_google_closure_library_third_party_0_0_20160609_f42b4a24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_spec_alpha_0_2_176.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_clojure_tools_reader_1_0_0_beta3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_jsoup_jsoup_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__org_mozilla_rhino_1_7R5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__potemkin_0_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__quoin_0_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__riddley_0_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__slingshot_0_12_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/libraries/Leiningen__viebel_codox_klipse_theme_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/scrapbjj.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scrapbjj/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/CarvedRock.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Data/CarvedRockDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Data/Entities/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Data/InitialData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Data/Migrations/CarvedRockDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Data/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/GraphQL/CarvedRockQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/GraphQL/CarvedRockSchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/GraphQL/Types/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/GraphQL/Types/ProductTypeEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Repositories/ProductRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.Api/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/demos/CarvedRock.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/02/starting-with-graphql-slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/creating-a-graphql-api-slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/CarvedRock.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/CarvedRockDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/Entities/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/Entities/ProductReview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/InitialData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/Migrations/CarvedRockDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Data/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/GraphQL/CarvedRockQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/GraphQL/CarvedRockSchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/GraphQL/Types/ProductReviewType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/GraphQL/Types/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/GraphQL/Types/ProductTypeEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Repositories/ProductRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Repositories/ProductReviewRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.Api/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/03/demos/CarvedRock.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/consuming-a-graphql-api-slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/CarvedRock.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/CarvedRockDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/Entities/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/Entities/ProductReview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/InitialData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/Migrations/CarvedRockDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Data/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/GraphQL/CarvedRockMutation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/GraphQL/CarvedRockQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/GraphQL/CarvedRockSchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/GraphQL/Types/ProductReviewInputType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/GraphQL/Types/ProductReviewType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/GraphQL/Types/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/GraphQL/Types/ProductTypeEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Repositories/ProductRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Repositories/ProductReviewRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Api/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/CarvedRock.Web.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Clients/ProductGraphClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Clients/ProductHttpClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/GraphQlException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Models/ErrorModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Models/ProductModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Models/ProductReviewInputModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Models/ProductReviewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Models/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Models/Response.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Views/Home/AddReview.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Views/Home/ProductDetail.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/Images/carved-rock-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/Images/shutterstock_222721876.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/Images/shutterstock_441989509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/Images/shutterstock_48040747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/Images/shutterstock_495259978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/Images/shutterstock_6170527.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/Images/shutterstock_66842440.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.Web/wwwroot/carvedrock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/04/demos/CarvedRock.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/CarvedRock.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/CarvedRockDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/Entities/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/Entities/ProductReview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/InitialData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/Migrations/CarvedRockDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Data/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/GraphQL/CarvedRockMutation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/GraphQL/CarvedRockQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/GraphQL/CarvedRockSchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/GraphQL/Types/ProductReviewInputType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/GraphQL/Types/ProductReviewType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/GraphQL/Types/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/GraphQL/Types/ProductTypeEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Repositories/ProductRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Repositories/ProductReviewRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Api/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/CarvedRock.Web.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Clients/ProductGraphClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Clients/ProductHttpClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/GraphQlException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Models/ErrorModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Models/ProductModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Models/ProductReviewInputModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Models/ProductReviewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Models/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Models/Response.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Views/Home/AddReview.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Views/Home/ProductDetail.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/Images/carved-rock-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/Images/shutterstock_222721876.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/Images/shutterstock_441989509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/Images/shutterstock_48040747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/Images/shutterstock_495259978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/Images/shutterstock_6170527.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/Images/shutterstock_66842440.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.Web/wwwroot/carvedrock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/demos/CarvedRock.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/05/mutating-data-with-graphql-slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/CarvedRock.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/CarvedRockDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/Entities/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/Entities/ProductReview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/InitialData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/Migrations/20181108113631_Products.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/Migrations/20181109084058_Reviews.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/Migrations/CarvedRockDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Data/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/CarvedRockMutation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/CarvedRockQuery.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/CarvedRockSchema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/CarvedRockSubscription.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/Messaging/ReviewAddedMessage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/Messaging/ReviewMessageService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/Types/ProductReviewInputType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/Types/ProductReviewType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/Types/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/Types/ProductTypeEnum.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/GraphQL/Types/ReviewAddedMessageType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Repositories/ProductRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Repositories/ProductReviewRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Api/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/CarvedRock.Web.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Clients/ProductGraphClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Clients/ProductHttpClient.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/GraphQlException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Models/ErrorModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Models/ProductModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Models/ProductReviewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Models/ProductType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Models/Response.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Views/Home/AddReview.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Views/Home/ProductDetail.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/Images/carved-rock-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/Images/shutterstock_222721876.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/Images/shutterstock_441989509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/Images/shutterstock_48040747.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/Images/shutterstock_495259978.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/Images/shutterstock_6170527.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/Images/shutterstock_66842440.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/carvedrock.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.Web/wwwroot/reviews.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/CarvedRock.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/demos/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../building-graphql-apis-aspdotnet-core/06/working-with-subscriptions-slides.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conduit" beforeDir="false" afterPath="$PROJECT_DIR$/../conduit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/doc/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/project.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/src/fetcher/core.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/src/fetcher/schema.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fetcher/test/fetcher/core_test.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/Capstanfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/config/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/project.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/src/helping_hands/server.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/src/helping_hands/service.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../helping-hands/test/helping_hands/service_test.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/.formatter.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/data/buzzwords.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/bingo_checker.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/buzzword_cache.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/buzzwords.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/game.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/game_display.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/game_server.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/game_supervisor.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/player.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/lib/bingo/square.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/test/bingo_checker_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/test/buzzword_cache_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/test/game_server_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/test/game_supervisor_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/test/game_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/test/square_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/brunch-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/css/phoenix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/elm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/elm/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/elm/src/Bingo.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/elm/src/Chat.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/elm/src/Game.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/elm/src/Players.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/js/color-selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/js/copy-game-url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/js/elm-game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/static/images/phoenix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/assets/vendor/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall/application.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall/haiku_name.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/channels/game_channel.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/channels/presence.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/channels/user_socket.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/controllers/game_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/controllers/session_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/endpoint.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/gettext.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/router.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/templates/game/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/templates/game/show.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/templates/layout/app.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/templates/session/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/views/error_helpers.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/views/error_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/views/game_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/views/layout_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/lib/bingo_hall_web/views/session_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/priv/gettext/en/LC_MESSAGES/errors.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/priv/gettext/errors.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/bingo_hall_web/channels/game_channel_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/bingo_hall_web/controllers/game_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/bingo_hall_web/controllers/session_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/bingo_hall_web/views/error_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/bingo_hall_web/views/game_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/bingo_hall_web/views/layout_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/bingo_hall_web/views/session_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/support/channel_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/support/conn_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-elm/bingo_hall/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/.formatter.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/data/buzzwords.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/bingo_checker.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/buzzword_cache.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/buzzwords.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/game.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/game_display.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/game_server.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/game_supervisor.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/player.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/lib/bingo/square.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/test/bingo_checker_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/test/buzzword_cache_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/test/game_server_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/test/game_supervisor_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/test/game_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/test/square_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/brunch-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/css/phoenix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/js/color-selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/js/copy-game-url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/js/vue-game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/static/images/phoenix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/assets/vendor/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall/application.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall/haiku_name.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/channels/game_channel.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/channels/presence.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/channels/user_socket.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/controllers/game_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/controllers/session_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/endpoint.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/gettext.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/router.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/templates/game/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/templates/game/show.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/templates/layout/app.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/templates/session/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/views/error_helpers.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/views/error_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/views/game_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/views/layout_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/lib/bingo_hall_web/views/session_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/priv/gettext/en/LC_MESSAGES/errors.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/priv/gettext/errors.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/bingo_hall_web/channels/game_channel_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/bingo_hall_web/controllers/game_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/bingo_hall_web/controllers/session_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/bingo_hall_web/views/error_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/bingo_hall_web/views/game_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/bingo_hall_web/views/layout_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/bingo_hall_web/views/session_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/support/channel_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/support/conn_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/apps-vue/bingo_hall/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/.formatter.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/data/buzzwords.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/bingo_checker.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/buzzword_cache.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/buzzwords.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/game.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/game_display.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/game_server.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/game_supervisor.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/player.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/lib/bingo/square.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/test/bingo_checker_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/test/buzzword_cache_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/test/game_server_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/test/game_supervisor_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/test/game_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/test/square_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/brunch-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/css/phoenix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/elm-package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/src/Bingo.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/src/Chat.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/src/Game.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/src/Players.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Channel.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Internal/Channel.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Internal/Helpers.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Internal/Message.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Internal/Presence.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Internal/Socket.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Presence.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Push.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/elm/vendor/Phoenix/Socket.elm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/js/color-selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/js/copy-game-url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/js/elm-game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/static/images/phoenix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/assets/vendor/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall/application.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall/haiku_name.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/channels/game_channel.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/channels/presence.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/channels/user_socket.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/controllers/game_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/controllers/session_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/endpoint.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/gettext.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/router.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/templates/game/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/templates/game/show.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/templates/layout/app.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/templates/session/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/views/error_helpers.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/views/error_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/views/game_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/views/layout_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/lib/bingo_hall_web/views/session_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/priv/gettext/en/LC_MESSAGES/errors.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/priv/gettext/errors.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/bingo_hall_web/channels/game_channel_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/bingo_hall_web/controllers/game_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/bingo_hall_web/controllers/session_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/bingo_hall_web/views/error_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/bingo_hall_web/views/game_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/bingo_hall_web/views/layout_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/bingo_hall_web/views/session_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/support/channel_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/support/conn_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/alt-elm-socket-package/bingo_hall/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/.formatter.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/data/buzzwords.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/bingo_checker.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/buzzword_cache.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/buzzwords.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/game.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/game_display.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/game_server.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/game_supervisor.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/player.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/lib/bingo/square.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/test/bingo_checker_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/test/buzzword_cache_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/test/game_server_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/test/game_supervisor_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/test/game_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/test/square_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/brunch-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/css/phoenix.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/color-selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/components/ChatForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/components/Game.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/components/Messages.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/components/Players.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/copy-game-url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/js/vue-game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/static/images/phoenix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/assets/vendor/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall/application.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall/haiku_name.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/channels/game_channel.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/channels/presence.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/channels/user_socket.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/controllers/game_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/controllers/session_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/endpoint.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/gettext.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/router.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/templates/game/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/templates/game/show.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/templates/layout/app.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/templates/session/new.html.eex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/views/error_helpers.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/views/error_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/views/game_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/views/layout_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/lib/bingo_hall_web/views/session_view.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/priv/gettext/en/LC_MESSAGES/errors.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/priv/gettext/errors.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/bingo_hall_web/channels/game_channel_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/bingo_hall_web/controllers/game_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/bingo_hall_web/controllers/session_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/bingo_hall_web/views/error_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/bingo_hall_web/views/game_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/bingo_hall_web/views/layout_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/bingo_hall_web/views/session_view_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/support/channel_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/support/conn_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pragstudio-unpacked-bingo-code/bonus/vue-components/bingo_hall/test/test_helper.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reservation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/doc/intro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/project.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/src/sim/core.clj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sim/test/sim/core_test.clj" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cards/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="6809" column="6" selection-start-line="6809" selection-start-column="6" selection-end-line="6809" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cards/core.clj" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3584" />
+    <option name="y" value="-32" />
+    <option name="width" value="3866" />
+    <option name="height" value="2126" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="ReplState" timestamp="1559135452623">{:repl-history {:ide [], :local [{:command &quot;turns:&quot;, :offset 6, :ns &quot;cards.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="REPL for cards" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="cards" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for cards" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18c171bf-2155-471c-b296-b569db5c67b5" name="Default Changelist" comment="" />
+      <created>1559055828637</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559055828637</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3834" y="-6" width="1933" height="1063" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.090672225" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info active="true" anchor="right" id="REPL" order="7" side_tool="true" visible="true" weight="0.35591453" />
+      <window_info anchor="right" id="Leiningen" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.10.0/clojure-1.10.0.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="6809" column="6" selection-start-line="6809" selection-start-column="6" selection-end-line="6809" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cards/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
