@@ -1,0 +1,2 @@
+link:Solving Problems the Clojure Way - Rafal Dittwald
+[https://www.youtube.com/watch?v=vK1DazRK_a0]
