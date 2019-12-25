@@ -1,0 +1,93 @@
+(base) myMac:mytestleinproj myUser$ cd clojure-noob/
+(base) myMac:clojure-noob myUser$ ls
+CHANGELOG.md	README.md	project.clj	src
+LICENSE		doc		resources	test
+(base) myMac:clojure-noob myUser$ lein run
+OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+Hello, World!
+I am a teapot
+(base) myMac:clojure-noob myUser$ ls
+CHANGELOG.md	README.md	project.clj	src		test
+LICENSE		doc		resources	target
+(base) myMac:clojure-noob myUser$ cd..
+-bash: cd..: command not found
+(base) myMac:clojure-noob myUser$ ls
+CHANGELOG.md	README.md	project.clj	src		test
+LICENSE		doc		resources	target
+(base) myMac:clojure-noob myUser$ cd ..
+(base) myMac:mytestleinproj myUser$ ls
+clojure-noob
+(base) myMac:mytestleinproj myUser$ cd ..
+(base) myMac:bounty myUser$ ls
+CHANGELOG.md	README.adoc	doc		project.clj	target
+LICENSE		cards.iml	mytestleinproj	src		test
+(base) myMac:bounty myUser$ lein run
+OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+Turn: 0
+Bounty: 
+Player1: 
+Player2: 
+===
+Turn: 1
+Bounty: 3
+Player1: 6
+Player2: 1
+===
+Turn: 2
+Bounty: 5
+Player1: 2
+Player2: 5
+===
+Turn: 3
+Bounty: 1
+Player1: 8
+Player2: 7
+===
+Turn: 4
+Bounty: 7
+Player1: 1
+Player2: 2
+===
+Turn: 5
+Bounty: 6
+Player1: 3
+Player2: 6
+===
+Turn: 6
+Bounty: 8
+Player1: 5
+Player2: 4
+===
+Turn: 7
+Bounty: 4
+Player1: 4
+Player2: 3
+===
+Turn: 8
+Bounty: 2
+Player1: 7
+Player2: 8
+===
+4 V 4
+TieException in thread "main" Syntax error compiling at (/private/var/folders/q4/n4sdb9vx2d5429s9dkq2q0ww0000gn/T/form-init11767669843428243374.clj:1:126).
+	at clojure.lang.Compiler.load(Compiler.java:7647)
+	at clojure.lang.Compiler.loadFile(Compiler.java:7573)
+	at clojure.main$load_script.invokeStatic(main.clj:452)
+	at clojure.main$init_opt.invokeStatic(main.clj:454)
+	at clojure.main$init_opt.invoke(main.clj:454)
+	at clojure.main$initialize.invokeStatic(main.clj:485)
+	at clojure.main$null_opt.invokeStatic(main.clj:519)
+	at clojure.main$null_opt.invoke(main.clj:516)
+	at clojure.main$main.invokeStatic(main.clj:598)
+	at clojure.main$main.doInvoke(main.clj:561)
+	at clojure.lang.RestFn.applyTo(RestFn.java:137)
+	at clojure.lang.Var.applyTo(Var.java:705)
+	at clojure.main.main(main.java:37)
+Caused by: java.lang.Exception: Cannot find anything to run for: cards.core
+	at user$eval140.invokeStatic(form-init11767669843428243374.clj:1)
+	at user$eval140.invoke(form-init11767669843428243374.clj:1)
+	at clojure.lang.Compiler.eval(Compiler.java:7176)
+	at clojure.lang.Compiler.eval(Compiler.java:7166)
+	at clojure.lang.Compiler.load(Compiler.java:7635)
+	... 12 more
+(base) myMac:bounty myUser$ 
