@@ -1,5 +1,8 @@
 ; jdk and clojure
 ; ===============
+
+; https://clojure.org/guides/getting_started#_clojure_installer_and_cli_tools
+
 ; brew cask install adoptopenjdk
 ; brew install clojure 
 
