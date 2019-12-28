@@ -9,6 +9,7 @@
 // - stage g : (creat a nextState()) basically it is generalisd to nextState( current state) 
 // - stage h : (create a turn message) 
 // - stage i : (store states in an array)
+// - stage j : (split into runGame() and report())
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
@@ -24,14 +25,14 @@ function runGame() {
     while (last(states).bountyCards.length > 0) { // some minor bugs and concat is from end
         
         
-        console.log(turnMessage("before", last(states)));
+        // console.log(turnMessage("before", last(states)));
         
         states = states.concat(nextState(last(states))) // some minor bugs and concat is from end
         
         // stage g - const bountyCard = selectRandom(state.bountyCards);  // stage b - popRandom(bountyCards); 
         // stage g - state.bountyCards = without(state.bountyCards, bountyCard) // stage b - 
         
-        console.log(turnMessage("after", last(states)));
+        // console.log(turnMessage("after", last(states)));
         
 
         // stage g - const card0 = playRandomStrategy(state.playerCards[0], bountyCard);
@@ -60,7 +61,7 @@ function runGame() {
     
     // stage e = console.log(winMessage(playerScores));
     
-    console.log(endMessage(last(states).playerScores));
+    // console.log(endMessage(last(states).playerScores));
     
     // stage d - if (playerScores[0] == playerScores[1]) {
     // stage d -     console.log("PLayer Tie.")
@@ -69,35 +70,46 @@ function runGame() {
     // stage d - } else {
     // stage d -     console.log("PLayer 1 Wins!")
     // stage d - }
+    
+    return states;
 }
 
-runGame();
+// runGame();
+
+function report(states, onTurn, onEnd){
+    return states.map(onTurn).join("\n")+"\n"+
+        onEnd(last(states).playerScores) // once again minor bugs
+}
+
+console.log(report(runGame(), turnMessage, endMessage));
+
 
 function last(arr){
     return arr[arr.length - 1];
 }
 
-function turnMessage(status, state){
-   if (status == 'before') { 
+function turnMessage(state){ //{status, state){
+   // if (status == 'before') { 
        return   `--------------------------------\n`+
-            status +` Turn ${state.turn}:`+ 
+            // status +
+           ` Turn ${state.turn}:`+ 
             `\n\t  (-- last Bounty Cards  : ${state.lastBountyCard},) ` +
             `\n\t  (-- last Playing Cards : ${state.lastPlayingCards[0]} and ${state.lastPlayingCards[1]},) ` +
             `\n\t  current player Scores  : ${state.playerScores[0]} and ${state.playerScores[1]}, ` +
             `\n\t  remaining bounty Cards : ${state.bountyCards}, ` +
             `\n\t  on hand player Cards   : ${state.playerCards[0]} and ${state.playerCards[1]}. ` 
 
-   } else {
-       return   `||||||||||||||||||||||||||||||||\n`+
-            status +`  Turn ${state.turn}:`+ 
-            `\n\t  see Bounty Cards        : ${state.lastBountyCard}, ` +
-            `\n\t  just Played Cards       : ${state.lastPlayingCards[0]} and ${state.lastPlayingCards[1]}, ` +
-            `\n\t  player Scores           : ${state.playerScores[0]} and ${state.playerScores[1]},  ` +
-            `\n\t  next round bounty Cards : ${state.bountyCards}, ` +
-            `\n\t  next round player Cards : ${state.playerCards[0]} and ${state.playerCards[1]}. ` +
- 
-            `\n=================================\n`
-   }
+   //} // else {
+     //   return   `||||||||||||||||||||||||||||||||\n`+
+     //        status +`  Turn ${state.turn}:`+ 
+     //        `\n\t  see Bounty Cards        : ${state.lastBountyCard}, ` +
+     //        `\n\t  just Played Cards       : ${state.lastPlayingCards[0]} and ${state.lastPlayingCards[1]}, ` +
+     //        `\n\t  player Scores           : ${state.playerScores[0]} and ${state.playerScores[1]},  ` +
+     //        `\n\t  next round bounty Cards : ${state.bountyCards}, ` +
+     //        `\n\t  next round player Cards : ${state.playerCards[0]} and ${state.playerCards[1]}. ` +
+     // 
+     //        `\n=================================\n`
+   // }
 }
 
 function nextState(state) {
