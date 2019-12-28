@@ -79,22 +79,24 @@ function last(arr){
 
 function turnMessage(status, state){
    if (status == 'before') { 
-       return   `-------------------------------\n`+
+       return   `--------------------------------\n`+
             status +` Turn ${state.turn}:`+ 
-            `\n\t  bountyCards: ${state.bountyCards}, ` +
-            `\n\t  playerCards: ${state.playerCards}, ` +
-            `\n\t  lastBountyCards: ${state.lastBountyCard}, ` +
-            `\n\t  lastPlayingCards: ${state.lastPlayingCards}, ` +
-            `\n\t  playerScores: ${state.playerScores}. `
+            `\n\t  (-- last Bounty Cards  : ${state.lastBountyCard},) ` +
+            `\n\t  (-- last Playing Cards : ${state.lastPlayingCards[0]} and ${state.lastPlayingCards[1]},) ` +
+            `\n\t  current player Scores  : ${state.playerScores[0]} and ${state.playerScores[1]}, ` +
+            `\n\t  remaining bounty Cards : ${state.bountyCards}, ` +
+            `\n\t  on hand player Cards   : ${state.playerCards[0]} and ${state.playerCards[1]}. ` 
+
    } else {
-       return   `|||||||||||||||||||||||||||||||\n`+
+       return   `||||||||||||||||||||||||||||||||\n`+
             status +`  Turn ${state.turn}:`+ 
-            `\n\t  bountyCards: ${state.bountyCards}, ` +
-            `\n\t  playerCards: ${state.playerCards}, ` +
-            `\n\t  lastBountyCards: ${state.lastBountyCard}, ` +
-            `\n\t  lastPlayingCards: ${state.lastPlayingCards}, ` +
-            `\n\t  playerScores: ${state.playerScores}.  ` +
-            `\n===============================\n`
+            `\n\t  see Bounty Cards        : ${state.lastBountyCard}, ` +
+            `\n\t  just Played Cards       : ${state.lastPlayingCards[0]} and ${state.lastPlayingCards[1]}, ` +
+            `\n\t  player Scores           : ${state.playerScores[0]} and ${state.playerScores[1]},  ` +
+            `\n\t  next round bounty Cards : ${state.bountyCards}, ` +
+            `\n\t  next round player Cards : ${state.playerCards[0]} and ${state.playerCards[1]}. ` +
+ 
+            `\n=================================\n`
    }
 }
 
