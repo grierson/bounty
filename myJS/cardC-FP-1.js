@@ -2,7 +2,6 @@
 // refactoring by stages 
 // - stage a : (try to remove mutation) just move logging so no mutation in the fuction
 // - stage b : (make popRandom () pure) avoid play Random using in place mutation array splice 
-// - stage c : (make payEqual () pure) 
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
