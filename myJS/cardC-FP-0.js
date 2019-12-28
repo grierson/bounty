@@ -1,4 +1,5 @@
-// node card0-impertive.js
+// from node card0-impertive.js
+// refactoring by stages
 
 function runGame() {
     let turn = 0;
@@ -10,7 +11,7 @@ function runGame() {
     while (bountyCards.length > 0) {
         
         const bountyCard = popRandom(bountyCards);
-        console.log(`Turn ${turn}: Bound: ${bountyCard}`);
+        console.log(`Turn ${turn}: Bounty: ${bountyCard}`);
         const card0 = playRandomStrategy(playerCards[0], bountyCard);
         const card1 = playEqualStrategy(playerCards[1], bountyCard);
         turn +=1;
@@ -20,9 +21,9 @@ function runGame() {
         } else if (card1 > card0){
             playerScores[1] += bountyCard;
         } else {
-            console.log(`\ncard0 is ${card0}`);
-            console.log(`card1 is ${card1}`);
-            console.log("ERROR - not cover equal case??!!\n")
+            //console.log(`\ncard0 is ${card0}`);
+            //console.log(`card1 is ${card1}`);
+            console.log("the competition card is discarded")
         }
     }
     

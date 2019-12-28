@@ -72,9 +72,9 @@ class Game {
         } else if (card1 > card0){
             this.players[1].scorePoint(scoreCard)
         } else {
-            console.log(`\ncard0 is ${card0}`);
-            console.log(`card1 is ${card1}`);
-            console.log("NOT SURE - not cover equal case??!!\n")
+            //console.log(`\ncard0 is ${card0}`);
+            //console.log(`card1 is ${card1}`);
+            console.log("the competition card is discarded")
         }
         
         this.turn += 1;
