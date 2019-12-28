@@ -7,6 +7,7 @@
 // - stage e : (combine end message) 
 // - stage f : (combine sate vars into one)
 // - stage g : (creat a nextState()) basically it is generalisd to nextState( current state) 
+// - stage h : (create a turn message) 
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
@@ -21,26 +22,15 @@ function runGame() {
 
     while (state.bountyCards.length > 0) {
         
-        console.log(`-------------------------------\n`+
-                    `Before Turn: ${state.turn}:`+ 
-                    `\n\tbountyCards: ${state.bountyCards}, ` +
-                    `\n\tplayerCards: ${state.playerCards}, ` +
-                    `\n\tlastBountyCards: ${state.lastBountyCard}, ` +
-                    `\n\tlastPlayingCards: ${state.lastPlayingCards}, ` +
-                    `\n\tplayerScores: ${state.playerScores}, `);
+        console.log(turnMessage("before", state));
         
         state = nextState(state);
         
         // stage g - const bountyCard = selectRandom(state.bountyCards);  // stage b - popRandom(bountyCards); 
         // stage g - state.bountyCards = without(state.bountyCards, bountyCard) // stage b - 
         
-        console.log(`After Turn: ${state.turn}:`+ 
-                    `\n\tbountyCards: ${state.bountyCards}, ` +
-                    `\n\tplayerCards: ${state.playerCards}, ` +
-                    `\n\tlastBountyCards: ${state.lastBountyCard}, ` +
-                    `\n\tlastPlayingCards: ${state.lastPlayingCards}, ` +
-                    `\n\tplayerScores: ${state.playerScores}, `+
-                    `\n======================================`);
+        console.log(turnMessage("after", state));
+        
 
         // stage g - const card0 = playRandomStrategy(state.playerCards[0], bountyCard);
         // stage g - const card1 = playEqualStrategy(state.playerCards[1], bountyCard);
@@ -49,8 +39,8 @@ function runGame() {
         
         // stage g - state.turn +=1;
         
-        console.log(`\tPlayer 0 plays: ${state.lastPlayingCards[0]}`)// card0}`); // stage - a 
-        console.log(`\tPlayer 1 plays: ${state.lastPlayingCards[1]}`)// card1}`); // stage - a 
+        //console.log(`\tPlayer 0 plays: ${state.lastPlayingCards[0]}`)// card0}`); // stage - a 
+        //console.log(`\tPlayer 1 plays: ${state.lastPlayingCards[1]}`)// card1}`); // stage - a 
                                                    // ; see wiki best strategy against random play
         
         // stage g - if (card0 > card1) {
@@ -80,6 +70,27 @@ function runGame() {
 }
 
 runGame();
+
+function turnMessage(status, state){
+   if (status == 'before') { 
+       return   `-------------------------------\n`+
+            status +` Turn ${state.turn}:`+ 
+            `\n\t  bountyCards: ${state.bountyCards}, ` +
+            `\n\t  playerCards: ${state.playerCards}, ` +
+            `\n\t  lastBountyCards: ${state.lastBountyCard}, ` +
+            `\n\t  lastPlayingCards: ${state.lastPlayingCards}, ` +
+            `\n\t  playerScores: ${state.playerScores}. `
+   } else {
+       return   `|||||||||||||||||||||||||||||||\n`+
+            status +`  Turn ${state.turn}:`+ 
+            `\n\t  bountyCards: ${state.bountyCards}, ` +
+            `\n\t  playerCards: ${state.playerCards}, ` +
+            `\n\t  lastBountyCards: ${state.lastBountyCard}, ` +
+            `\n\t  lastPlayingCards: ${state.lastPlayingCards}, ` +
+            `\n\t  playerScores: ${state.playerScores}.  ` +
+            `\n===============================\n`
+   }
+}
 
 function nextState(state) {
 
@@ -144,11 +155,11 @@ function endMessage(playerScores){
 
 function winMessage(playerScores) {
     if (playerScores[0] == playerScores[1]) {
-        return "PLayer Tie.";
+        return "PLayer Tie.\n";
     } else if (playerScores[0] > playerScores[1]) {
-        return "PLayer 0 Wins!";
+        return "PLayer 0 Wins!\n";
     } else {
-        return "PLayer 1 Wins!";
+        return "PLayer 1 Wins!\n";
     }
 }
 
