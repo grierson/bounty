@@ -57,3 +57,7 @@ function playEqualStrategy(playerCards, bountyCard){
     console.log(`\tPlayer 1 plays: ${bountyCard}`);
     return bountyCard;
 }
+
+module.exports = runGame;
+
+// see https://evdokimovm.github.io/javascript/nodejs/2016/06/13/NodeJS-How-to-Use-Functions-from-Another-File-using-module-exports.html

@@ -57,3 +57,5 @@ function playEqualStrategy(playerCards, bountyCard){
     console.log(`\tPlayer 1 plays: ${bountyCard}`);
     return bountyCard;
 }
+
+module.exports = runGame;

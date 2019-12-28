@@ -102,3 +102,4 @@ class Game {
 game = new Game();
 game.playGame()
 
+module.exports = Game;
