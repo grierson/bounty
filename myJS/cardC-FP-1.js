@@ -1,7 +1,8 @@
 // from node card0-impertive.js
 // refactoring by stages 
-// - stage a : just move logging so no mutation in the fuction
-// - stage b : avoid play Random using in place mutation array splice 
+// - stage a : (try to remove mutation) just move logging so no mutation in the fuction
+// - stage b : (make popRandom () pure) avoid play Random using in place mutation array splice 
+// - stage c : (make payEqual () pure) 
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
@@ -20,11 +21,12 @@ function runGame() {
         console.log(`Turn ${turn}: Bounty: ${bountyCard}`);
         const card0 = playRandomStrategy(playerCards[0], bountyCard);
         const card1 = playEqualStrategy(playerCards[1], bountyCard);
-        palyCards[0] = without(playCards, card0); // stage b
+        playerCards[0] = without(playerCards[0], card0); // stage b
+        
         turn +=1;
         
-        console.log(`\tPlayer 0 plays: ${card0}`); // stage-a 
-        console.log(`\tPlayer 1 plays: ${card1}`); // stage-a 
+        console.log(`\tPlayer 0 plays: ${card0}`); // stage - a 
+        console.log(`\tPlayer 1 plays: ${card1}`); // stage - a 
                                                    // ; see wiki best strategy against random play
         
         if (card0 > card1) {
@@ -51,27 +53,30 @@ function runGame() {
 
 runGame();
 
-function popRandom(arr){
+function selectRandom(arr){ // stage b - popRandom(arr){
     const index = Math.floor(Math.random() * arr.length);
-    const value = arr[index];
-    arr.splice(index, 1);
-    return value;
+    return arr[index];
+    // stage b - const value = arr[index];
+    // stage b - arr.splice(index, 1);
+    // stage b - return value;
 }
 
 function playRandomStrategy(playerCards, bountyCard){
-    const card = popRandom(playerCards);
-    // stage a- console.log(`\tPlayer 0 plays: ${card}`);
+    const card = selectRandom(playerCards); // stage b - popRandom(playerCards);
+    // stage a - console.log(`\tPlayer 0 plays: ${card}`);
     return card;
 }
 
 function playEqualStrategy(playerCards, bountyCard){
     playerCards.splice(playerCards.indexOf(bountyCard),1);
-    // stage a- console.log(`\tPlayer 1 plays: ${bountyCard}`);
+    // stage a - console.log(`\tPlayer 1 plays: ${bountyCard}`);
     return bountyCard;
 }
 
 function without(arr, value){                                //stage b
     const index = arr.indexOf(value);                        //stage b
+    // debug during stage b : x = 
+    // debug during stage b : console.log(` ===> not sure what is this: ${x} `)
     return [...arr.slice(0, index), ...arr.slice(index+1)];  //stage b
 }
 
