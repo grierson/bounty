@@ -5,37 +5,38 @@
 // - stage c : (make payEqual () pure) 
 // - stage d : (extract winMessage) try to avoid logic in display message
 // - stage e : (combine end message) 
+// - stage f : (combine sate vars into one)
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
 function runGame() {
-    let turn = 0;
-    let bountyCards = [1, 2, 3, 4, 5, 6, 7, 8];
-    let playerCards = [[1, 2, 3, 4, 5, 6, 7, 8],
-                       [1, 2, 3, 4, 5, 6, 7, 8]];
-    let playerScores = [0, 0];
+    let state = { turn : 0,
+                  bountyCards : [1, 2, 3, 4, 5, 6, 7, 8],
+                  playerCards : [[1, 2, 3, 4, 5, 6, 7, 8],
+                                 [1, 2, 3, 4, 5, 6, 7, 8]],
+                  playerScores : [0, 0]} // stage f and many below to use state. !!!
 
-    while (bountyCards.length > 0) {
+    while (state.bountyCards.length > 0) {
         
-        const bountyCard = selectRandom(bountyCards);  // stage b - popRandom(bountyCards); 
-        bountyCards = without(bountyCards, bountyCard) // stage b - 
+        const bountyCard = selectRandom(state.bountyCards);  // stage b - popRandom(bountyCards); 
+        state.bountyCards = without(state.bountyCards, bountyCard) // stage b - 
         
-        console.log(`Turn ${turn}: Bounty: ${bountyCard}`);
-        const card0 = playRandomStrategy(playerCards[0], bountyCard);
-        const card1 = playEqualStrategy(playerCards[1], bountyCard);
-        playerCards[0] = without(playerCards[0], card0); // stage b
-        playerCards[1] = without(playerCards[1], card1); // stage c
+        console.log(`Turn ${state.turn}: Bounty: ${bountyCard}`);
+        const card0 = playRandomStrategy(state.playerCards[0], bountyCard);
+        const card1 = playEqualStrategy(state.playerCards[1], bountyCard);
+        state.playerCards[0] = without(state.playerCards[0], card0); // stage b
+        state.playerCards[1] = without(state.playerCards[1], card1); // stage c
         
-        turn +=1;
+        state.turn +=1;
         
         console.log(`\tPlayer 0 plays: ${card0}`); // stage - a 
         console.log(`\tPlayer 1 plays: ${card1}`); // stage - a 
                                                    // ; see wiki best strategy against random play
         
         if (card0 > card1) {
-            playerScores[0] += bountyCard;
+            state.playerScores[0] += bountyCard;
         } else if (card1 > card0){
-            playerScores[1] += bountyCard;
+            state.playerScores[1] += bountyCard;
         } else {
             //console.log(`\ncard0 is ${card0}`);
             //console.log(`card1 is ${card1}`);
@@ -47,7 +48,7 @@ function runGame() {
     
     // stage e = console.log(winMessage(playerScores));
     
-    console.log(endMessage(playerScores));
+    console.log(endMessage(state.playerScores));
     
     // stage d - if (playerScores[0] == playerScores[1]) {
     // stage d -     console.log("PLayer Tie.")
