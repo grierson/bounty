@@ -8,28 +8,30 @@
 // - stage f : (combine sate vars into one)
 // - stage g : (creat a nextState()) basically it is generalisd to nextState( current state) 
 // - stage h : (create a turn message) 
+// - stage i : (store states in an array)
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
 function runGame() {
-    let state = { turn : 0,
+    let states = [{ turn : 0,
                   bountyCards : [1, 2, 3, 4, 5, 6, 7, 8],
                   playerCards : [[1, 2, 3, 4, 5, 6, 7, 8],
                                  [1, 2, 3, 4, 5, 6, 7, 8]],
                   lastBountyCard: 0,  
                   lastPlayingCards : [0, 0], // need this to avoid cannot logging in stage g
-                  playerScores : [0, 0]} // stage f and many below to use state. !!!
+                  playerScores : [0, 0]}] // stage f and many below to use state. !!!
 
-    while (state.bountyCards.length > 0) {
+    while (last(states).bountyCards.length > 0) { // some minor bugs and concat is from end
         
-        console.log(turnMessage("before", state));
         
-        state = nextState(state);
+        console.log(turnMessage("before", last(states)));
+        
+        states = states.concat(nextState(last(states))) // some minor bugs and concat is from end
         
         // stage g - const bountyCard = selectRandom(state.bountyCards);  // stage b - popRandom(bountyCards); 
         // stage g - state.bountyCards = without(state.bountyCards, bountyCard) // stage b - 
         
-        console.log(turnMessage("after", state));
+        console.log(turnMessage("after", last(states)));
         
 
         // stage g - const card0 = playRandomStrategy(state.playerCards[0], bountyCard);
@@ -58,7 +60,7 @@ function runGame() {
     
     // stage e = console.log(winMessage(playerScores));
     
-    console.log(endMessage(state.playerScores));
+    console.log(endMessage(last(states).playerScores));
     
     // stage d - if (playerScores[0] == playerScores[1]) {
     // stage d -     console.log("PLayer Tie.")
@@ -70,6 +72,10 @@ function runGame() {
 }
 
 runGame();
+
+function last(arr){
+    return arr[arr.length - 1];
+}
 
 function turnMessage(status, state){
    if (status == 'before') { 
