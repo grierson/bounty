@@ -3,6 +3,7 @@
 // - stage a : (try to remove mutation) just move logging so no mutation in the fuction
 // - stage b : (make popRandom () pure) avoid play Random using in place mutation array splice 
 // - stage c : (make payEqual () pure) 
+// - stage d : (extract winMessage) try to avoid logic in display message
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
@@ -43,16 +44,28 @@ function runGame() {
     
     console.log(`Scores: ${playerScores[0]} v ${playerScores[1]}`);
     
-    if (playerScores[0] == playerScores[1]) {
-        console.log("PLayer Tie.")
-    } else if (playerScores[0] > playerScores[1]) {
-        console.log("PLayer 0 Wins!")
-    } else {
-        console.log("PLayer 1 Wins!")
-    }
+    console.log(winMessage(playerScores));
+    
+    // stage d - if (playerScores[0] == playerScores[1]) {
+    // stage d -     console.log("PLayer Tie.")
+    // stage d - } else if (playerScores[0] > playerScores[1]) {
+    // stage d -     console.log("PLayer 0 Wins!")
+    // stage d - } else {
+    // stage d -     console.log("PLayer 1 Wins!")
+    // stage d - }
 }
 
 runGame();
+
+function winMessage(playerScores) {
+    if (playerScores[0] == playerScores[1]) {
+        return "PLayer Tie.";
+    } else if (playerScores[0] > playerScores[1]) {
+        return "PLayer 0 Wins!";
+    } else {
+        return "PLayer 1 Wins!";
+    }
+}
 
 function selectRandom(arr){ // stage b - popRandom(arr){
     const index = Math.floor(Math.random() * arr.length);
