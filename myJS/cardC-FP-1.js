@@ -10,6 +10,7 @@
 // - stage h : (create a turn message) 
 // - stage i : (store states in an array)
 // - stage j : (split into runGame() and report())
+// - stage k : (using recursion instead of loop)
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
@@ -22,12 +23,17 @@ function runGame() {
                   lastPlayingCards : [0, 0], // need this to avoid cannot logging in stage g
                   playerScores : [0, 0]}] // stage f and many below to use state. !!!
 
-    while (last(states).bountyCards.length > 0) { // some minor bugs and concat is from end
+    return recur(states, nextState, function(state){
+                 console.log(`state is ${state} and ${state.bountyCards}`);
+                 return state.bountyCards.length == 0; // not > 0 
+                 });
+    
+    //while (last(states).bountyCards.length > 0) { // some minor bugs and concat is from end
         
         
         // console.log(turnMessage("before", last(states)));
         
-        states = states.concat(nextState(last(states))) // some minor bugs and concat is from end
+        //states = states.concat(nextState(last(states))) // some minor bugs and concat is from end
         
         // stage g - const bountyCard = selectRandom(state.bountyCards);  // stage b - popRandom(bountyCards); 
         // stage g - state.bountyCards = without(state.bountyCards, bountyCard) // stage b - 
@@ -55,7 +61,7 @@ function runGame() {
         // stage g -     //console.log(`card1 is ${card1}`);
         // stage g -    console.log("the competition card is discarded")
         // stage g - }
-    }
+    //}
     
     // stage e - console.log(`Scores: ${playerScores[0]} v ${playerScores[1]}`);
     
@@ -71,10 +77,18 @@ function runGame() {
     // stage d -     console.log("PLayer 1 Wins!")
     // stage d - }
     
-    return states;
+    // return states;
 }
 
 // runGame();
+
+function recur(states, stateChange, endCondition){
+    if(endCondition(last(states))){ // missing one ) in the code
+        return states;
+    } else {
+        return recur(states.concat(stateChange(last(states))),stateChange, endCondition); // lastState should be last(states) and the function recur need 3 parameters
+    }
+}
 
 function report(states, onTurn, onEnd){
     return states.map(onTurn).join("\n")+"\n"+
