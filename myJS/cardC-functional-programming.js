@@ -1,4 +1,4 @@
-// node cardA-impertive.js
+// node card0-impertive.js
 
 function runGame() {
     let turn = 0;
