@@ -29,7 +29,6 @@ function winMessage(playerScores) {
     }
 }
 
-
 function scoreMessage(playerScores){
     return `Scores: ${playerScores[0]} v ${playerScores[1]}`;
 }
@@ -38,7 +37,6 @@ function endMessage(playerScores){
     return scoreMessage(playerScores) + "\n" + 
            winMessage(playerScores);
 }
-
 
 function turnMessage(state){ 
        return   `--------------------------------\n`+
@@ -51,12 +49,10 @@ function turnMessage(state){
             `\n\t  on hand player Cards   : ${state.playerCards[0]} and ${state.playerCards[1]}. ` 
 }
 
-
 function report(states, onTurn, onEnd){
     return states.map(onTurn).join("\n")+"\n"+
         onEnd(last(states).playerScores) // last(states) not lastState
 }
-
 
 function newScore(playerScores, playerCards, bountyCard){
     if (playerCards[0] > playerCards[1]) {
@@ -87,7 +83,6 @@ function nextState(state) {
         }
 }
 
-
 function recur(states, stateChange, endCondition){
     if(endCondition(last(states))){ // missing one ) in the code
         return states;
@@ -95,7 +90,6 @@ function recur(states, stateChange, endCondition){
         return recur(states.concat(stateChange(last(states))),stateChange, endCondition); // lastState should be last(states) and the function recur need 3 parameters not 1 parameter
     }
 }
-
 
 function runGame() {
     let states = [{ turn : 0,
@@ -113,14 +107,12 @@ function runGame() {
 }
 
 
-
 console.log(report(runGame(), turnMessage, endMessage));
 
 
 function last(arr){
     return arr[arr.length - 1];
 }
-
 
 function selectRandom(arr){ 
     const index = Math.floor(Math.random() * arr.length);
