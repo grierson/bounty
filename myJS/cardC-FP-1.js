@@ -2,6 +2,7 @@
 // refactoring by stages 
 // - stage a : (try to remove mutation) just move logging so no mutation in the fuction
 // - stage b : (make popRandom () pure) avoid play Random using in place mutation array splice 
+// - stage c : (make payEqual () pure) 
 
 // adopt the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
 
@@ -21,6 +22,7 @@ function runGame() {
         const card0 = playRandomStrategy(playerCards[0], bountyCard);
         const card1 = playEqualStrategy(playerCards[1], bountyCard);
         playerCards[0] = without(playerCards[0], card0); // stage b
+        playerCards[1] = without(playerCards[1], card1); // stage c
         
         turn +=1;
         
@@ -67,7 +69,7 @@ function playRandomStrategy(playerCards, bountyCard){
 }
 
 function playEqualStrategy(playerCards, bountyCard){
-    playerCards.splice(playerCards.indexOf(bountyCard),1);
+    // stage c - playerCards.splice(playerCards.indexOf(bountyCard),1);
     // stage a - console.log(`\tPlayer 1 plays: ${bountyCard}`);
     return bountyCard;
 }
