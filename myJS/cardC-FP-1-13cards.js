@@ -13,6 +13,7 @@
 // - stage k : (using recursion instead of loop)
 
 // the competition card is discarded as in wiki: https://en.wikipedia.org/wiki/Goofspiel
+// total score can be less if there are equal card and the value was droped
 
 function without(arr, value){                                
     const index = arr.indexOf(value);                        
@@ -93,9 +94,9 @@ function recur(states, stateChange, endCondition){
 
 function runGame() {
     let states = [{ turn : 0,
-                  bountyCards : [1, 2, 3, 4, 5, 6, 7, 8],
-                  playerCards : [[1, 2, 3, 4, 5, 6, 7, 8],
-                                 [1, 2, 3, 4, 5, 6, 7, 8]],
+                  bountyCards :  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+                  playerCards : [[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+                                 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]],
                   lastBountyCard: 0,         // need this to help logging 
                   lastPlayingCards : [0, 0], // need this to help logging 
                   playerScores : [0, 0]}] 
