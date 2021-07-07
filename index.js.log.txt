@@ -1,0 +1,70 @@
+node index.js
+
+
+just run it but now it is a FP<-----------===
+
+--------------------------------
+ Turn 0:
+	  (-- last Bounty Cards  : 0,) 
+	  (-- last Playing Cards : 0 and 0,) 
+	  current player Scores  : 0 and 0, 
+	  remaining bounty Cards : 1,2,3,4,5,6,7,8, 
+	  on hand player Cards   : 1,2,3,4,5,6,7,8 and 1,2,3,4,5,6,7,8. 
+--------------------------------
+ Turn 1:
+	  (-- last Bounty Cards  : 5,) 
+	  (-- last Playing Cards : 3 and 5,) 
+	  current player Scores  : 0 and 5, 
+	  remaining bounty Cards : 1,2,3,4,6,7,8, 
+	  on hand player Cards   : 1,2,4,5,6,7,8 and 1,2,3,4,6,7,8. 
+--------------------------------
+ Turn 2:
+	  (-- last Bounty Cards  : 4,) 
+	  (-- last Playing Cards : 5 and 4,) 
+	  current player Scores  : 4 and 5, 
+	  remaining bounty Cards : 1,2,3,6,7,8, 
+	  on hand player Cards   : 1,2,4,6,7,8 and 1,2,3,6,7,8. 
+--------------------------------
+ Turn 3:
+	  (-- last Bounty Cards  : 7,) 
+	  (-- last Playing Cards : 1 and 7,) 
+	  current player Scores  : 4 and 12, 
+	  remaining bounty Cards : 1,2,3,6,8, 
+	  on hand player Cards   : 2,4,6,7,8 and 1,2,3,6,8. 
+--------------------------------
+ Turn 4:
+	  (-- last Bounty Cards  : 6,) 
+	  (-- last Playing Cards : 2 and 6,) 
+	  current player Scores  : 4 and 18, 
+	  remaining bounty Cards : 1,2,3,8, 
+	  on hand player Cards   : 4,6,7,8 and 1,2,3,8. 
+--------------------------------
+ Turn 5:
+	  (-- last Bounty Cards  : 2,) 
+	  (-- last Playing Cards : 4 and 2,) 
+	  current player Scores  : 6 and 18, 
+	  remaining bounty Cards : 1,3,8, 
+	  on hand player Cards   : 6,7,8 and 1,3,8. 
+--------------------------------
+ Turn 6:
+	  (-- last Bounty Cards  : 8,) 
+	  (-- last Playing Cards : 7 and 8,) 
+	  current player Scores  : 6 and 26, 
+	  remaining bounty Cards : 1,3, 
+	  on hand player Cards   : 6,8 and 1,3. 
+--------------------------------
+ Turn 7:
+	  (-- last Bounty Cards  : 1,) 
+	  (-- last Playing Cards : 6 and 1,) 
+	  current player Scores  : 7 and 26, 
+	  remaining bounty Cards : 3, 
+	  on hand player Cards   : 8 and 3. 
+--------------------------------
+ Turn 8:
+	  (-- last Bounty Cards  : 3,) 
+	  (-- last Playing Cards : 8 and 3,) 
+	  current player Scores  : 10 and 26, 
+	  remaining bounty Cards : , 
+	  on hand player Cards   :  and . 
+Scores: 10 v 26
+PLayer 1 Wins!

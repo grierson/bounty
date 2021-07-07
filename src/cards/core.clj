@@ -57,3 +57,13 @@
     (game-loop state)))
 
 (print (report (run-game) turn-message end-message))
+
+;;(print "\n")
+
+;;(print (+ 1 2))
+
+;;(print "\n-----\n")
+
+(defn -main [& args]
+  (println "Working!"))
+;;  (print (report (run-game) turn-message end-message)))

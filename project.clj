@@ -6,4 +6,11 @@
   :dependencies [[org.clojure/clojure "1.10.0"]]
   :main ^:skip-aot cards.core
   :target-path "target/%s"
-  :profiles {:uberjar {:aot :all}})
+  :profiles {:uberjar {:aot :all}
+             :dev {:exclusions [org.clojure/tools.trace]
+		   :dependencies [[cider/cider-nrepl "0.22.2"]]
+                   :repl-options {:host "0.0.0.0"
+                                  :port 4500
+                                  :nrepl-middleware
+                                  [cider.nrepl.middleware.out/wrap-out]}}}
+  )
